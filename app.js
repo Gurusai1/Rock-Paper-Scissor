@@ -105,7 +105,7 @@ const game = () => {
                 return;
             }
         }
-    };
+   };
 
     //Is call all the inner function
     startGame();
