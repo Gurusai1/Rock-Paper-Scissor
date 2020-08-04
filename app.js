@@ -40,7 +40,7 @@ const game = () => {
                     //Update Images
                     playerHand.src = `${this.textContent}.png`;
                     computerHand.src = `${computerChoice}.png`;
-                }, 1000);
+                }, 2000);
                 //Animation
                 playerHand.style.animation = "shakePlayer 2s ease";
                 computerHand.style.animation = "shakeComputer 2s ease";
